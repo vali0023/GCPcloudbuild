@@ -1,4 +1,4 @@
-credentials_file = "/c/Users/valis/OneDrive/Desktop/Cloud_build/cloud-build-400213-0d4c064421fe.json"
+credentials_file = "/c/Users/valis/OneDrive/Desktop/Cloud_build/Cloud_build_repo/cloud-build-400213-0d4c064421fe.json"
 project_id       = "cloud-build-400213"
 region           = "us-central1"
 vpc_name         = "my-vpc"
