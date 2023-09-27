@@ -10,3 +10,7 @@ steps:
       - 'GOOGLE_CLOUD_KEYFILE_JSON=/c/Users/valis/OneDrive/Desktop/Cloud_build/cloud-build-400213-0d4c064421fe.json'
     dir: '/c/Users/valis/OneDrive/Desktop/Cloud_build/terraform/config'
 
+
+options:
+  logging: 'CLOUD_LOGING_ONLY'
+
