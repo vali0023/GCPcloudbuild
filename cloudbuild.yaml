@@ -1,0 +1,12 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['auth', 'activate-service-account', '--key-file=YOUR_SERVICE_ACCOUNT_KEY.json']
+  - name: 'hashicorp/terraform:latest'
+    args:
+      - 'init'
+      - 'apply'
+      - '-auto-approve'
+    env:
+      - 'GOOGLE_CLOUD_KEYFILE_JSON=/c/Users/valis/OneDrive/Desktop/Cloud_build/cloud-build-400213-0d4c064421fe.json'
+    dir: '/c/Users/valis/OneDrive/Desktop/Cloud_build/terraform/config'
+
