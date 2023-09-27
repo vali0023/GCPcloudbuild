@@ -1,6 +1,6 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['auth', 'activate-service-account', '--key-file=YOUR_SERVICE_ACCOUNT_KEY.json']
+    args: ['auth', 'activate-service-account', '--key-file=cloud-build-400213-0d4c064421fe.json']
   - name: 'hashicorp/terraform:latest'
     args:
       - 'init'
