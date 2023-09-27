@@ -12,5 +12,5 @@ steps:
 
 
 options:
-  logging: 'CLOUD_LOGING_ONLY'
+  logging: 'CLOUD_LOGGING_ONLY'
 
