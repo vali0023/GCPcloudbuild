@@ -7,8 +7,8 @@ steps:
       - 'apply'
       - '-auto-approve'
     env:
-      - 'GOOGLE_CLOUD_KEYFILE_JSON=/c/Users/valis/OneDrive/Desktop/Cloud_build/Cloud_build_repo/cloud-build-400213-0d4c064421fe.json'
-    dir: '/c/Users/valis/OneDrive/Desktop/Cloud_build/Cloud_build_repo/terraform/config'
+      - 'GOOGLE_CLOUD_KEYFILE_JSON=/c/Users/sheik.vali/Desktop/Cloud_build_repo/cloud-build-400213-0d4c064421fe.json'
+    dir: '/c/Users/sheik.vali/Desktop/Cloud_build_repo/terraform/config'
 
 
 options:
